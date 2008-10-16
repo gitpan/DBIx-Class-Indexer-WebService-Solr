@@ -1,0 +1,25 @@
+---
+abstract: 'Automatic indexing of DBIx::Class objects via WebService::Solr'
+author:
+  - 'Brian Cassidy <bricas@cpan.org>'
+build_requires:
+  Test::More: 0
+distribution_type: module
+generated_by: 'Module::Install version 0.77'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: DBIx-Class-Indexer-WebService-Solr
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  DBIx::Class::Indexed: 0
+  Scalar::Util: 0
+  WebService::Solr: 0
+  perl: 5.8.0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
