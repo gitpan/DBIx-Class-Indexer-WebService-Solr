@@ -35,7 +35,7 @@ SYNOPSIS
                 source => 'widgets.name'
             },
         );
-    
+
 DESCRIPTION
     Connects a DBIx::Class-based class to a Solr index.
 
@@ -69,15 +69,17 @@ METHODS
     Will either update or add a document to the index.
 
 SEE ALSO
-    * DBIx::Class
-    * DBIx::Class::Indexed
-    * WebService::Solr
+    *   DBIx::Class
+
+    *   DBIx::Class::Indexed
+
+    *   WebService::Solr
 
 AUTHOR
     Brian Cassidy <bricas@cpan.org>
 
 COPYRIGHT AND LICENSE
-    Copyright 2008 by Brian Cassidy
+    Copyright 2008-2009 by Brian Cassidy
 
     This library is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
